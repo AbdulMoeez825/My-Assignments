@@ -1,0 +1,175 @@
+body{
+    position: relative;
+    font-weight: 500;
+   
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+      /* position: absolute; */
+    border: 1px solid black;
+    position: relative;
+    top: 0px;   
+}
+a{
+    display:inline-block;
+    padding: 5px;
+}
+.navbar{
+    position: relative;
+    top: 40px;
+    right: 20%;
+    font-size: 20px;   
+}
+.logo{
+    position: relative;
+    left: 110px;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;   
+}
+.heading{
+    text-align: center;   
+}
+.mika{
+    display: flex;   
+    position: relative;
+    left: 30%;
+   
+    
+}
+.circle img{
+    border-radius: 50%;
+    /* padding: 4px; */
+}
+.icon{
+    display: flex;
+    position: relative;
+    left: 750px;
+    top: 0;
+    display:inline-block;
+    padding: 10px;
+    margin: 6px;  
+}
+#icon1{
+    border: 1px solid black;
+    margin: 4px;
+    padding: 4px 20px;
+}
+#icon2{
+    border: 1px solid black;
+    margin: 4px;
+    padding: 4px 20px;
+}
+.center{
+    display: block;
+    margin-left: 30%;
+    margin-right: 50%; 
+    width: 100%;
+    
+  }
+.list{
+    
+    position: relative;
+    left: 30%;
+  
+} 
+.mid{
+   
+    position: relative;
+    left: 30%;
+
+}
+.f{
+   
+   display:inline-block;
+   padding: 10px;
+   font-size: small;
+   font-family: 'Times New Roman', Times, serif;
+   display: flex;
+   position: relative;
+   left: 380px;
+   
+} 
+#f-icon{
+    border: 1px solid black;
+    padding: 15px;
+
+}
+#t-icon{
+    border: 1px solid black;
+    padding: 15px;
+
+}
+#display{
+    display: flex;
+    position: relative;
+    left: 30%;
+    padding: 4px;
+
+}
+.box{
+    text-align: center;
+    display: flex;
+    position: relative;
+    left: 15%;
+    font-weight:bold ;
+    font-size: large;
+}
+h1{
+    text-align: center;
+    margin-bottom:0px ;
+}
+.row1{
+    margin: 20px;
+}
+.box1{
+    text-align: center;
+    display: flex;
+    position: relative;
+    left: 15%; 
+    font-weight:bold ;
+    font-size: large;
+}
+button{
+    background-color: black;
+    color: white;
+}
+.form{
+    border: 1px solid black;
+    text-align: center;
+    display: inline-block;
+    padding: 40px;
+    position: relative;
+    left: 33.3%;
+    margin-top: 0px;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.footer-item{
+    display: flex;
+    justify-content:center;
+    list-style-type: none;
+    
+}
+.items{
+    
+    padding: 15px;   
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.last{
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+}
+#last-heading{
+    font-size: 40px;
+}
+
+
+
