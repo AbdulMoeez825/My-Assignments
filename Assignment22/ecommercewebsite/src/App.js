@@ -1,20 +1,21 @@
-import { useSelector, useDispatch } from "react-redux";
-import { fetchProducts } from "./store/slice/productSlice";
+import React from 'react'
+import {Routes,Route} from "react-router-dom"
+import Home from './pages/Home'
+import Cart from './pages/Cart'
+import Navbar from './component/Navbar'
 
-export default function App() {
-  const products = useSelector((store) => store.product.products);
-  const dispatch = useDispatch();
-  console.log("product in component", products)
-
-  const onClickProducts = () =>{
-    dispatch(fetchProducts())
-  }
+const App = () => {
   return (
-    <div>
-      <button onClick={onClickProducts}>Get Products</button>
-      
-    </div>
-  );
+<>
+  <Navbar/>
+  <br />
+  <br />
+ <Routes>
+  <Route path='/' element={<Home/>} />
+  <Route path='/cart' element={<Cart/>} />
+ </Routes>
+</>
+  )
 }
 
-
+export default App;
